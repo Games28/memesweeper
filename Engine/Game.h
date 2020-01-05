@@ -23,6 +23,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
+#include "memefield.h"
 
 class Game
 {
@@ -40,6 +41,8 @@ private:
 private:
 	MainWindow& wnd;
 	Graphics gfx;
+
+    MemeField field;
 	/********************************/
 	/*  User Variables              */
 	/********************************/
